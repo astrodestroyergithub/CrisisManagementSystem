@@ -1,0 +1,92 @@
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+	<title>BMI - Calculator - 19BCE1156</title>
+	<script type="text/javascript">
+	function calBMI(){
+		sex=document.getElementById("sex").value;
+		wt=document.getElementById("weight").value;
+		htfeet=document.getElementById("heightfeet").value;
+		htinch=document.getElementById("heightinch").value;
+		ht=parseInt(htinch)+12*parseInt(htfeet);
+		bmi=703*wt/(ht*ht);
+		if(sex=="Male"){
+			document.getElementById("result").value=bmi;
+			if(bmi<17.50){
+            document.getElementById('place-here').innerHTML="Anorexia";
+			// alert("Anorexia");
+			}
+			else if(bmi>=17.501 && bmi<=20.70){
+            document.getElementById('place-here').innerHTML="Underweight";
+			// alert("Underweight");
+			}
+			else if(bmi>=20.71 && bmi<=26.40){
+            document.getElementById('place-here').innerHTML="Ideal range";
+			// alert("Ideal range");
+			}
+			else if(bmi>=26.41 && bmi<=27.80){
+            document.getElementById('place-here').innerHTML="Marginally overweight range";
+			// alert("Marginally overweight range");
+			}
+			else if(bmi>=27.81 && bmi<=31.10){
+            document.getElementById('place-here').innerHTML="Overweight range";
+			// alert("Overweight range");
+			}
+			else{
+            document.getElementById('place-here').innerHTML="Very overweight or obese range";
+			// alert("Very overweight or obese range");
+			}
+		}
+		else{
+			document.getElementById("result").value=bmi;
+			if(bmi<17.50){
+            document.getElementById('place-here').innerHTML="Anorexia";
+			// alert("Anorexia");
+			}
+			else if(bmi>=17.51 && bmi<=19.10){
+            document.getElementById('place-here').innerHTML="Underweight";
+			// alert("Underweight");
+			}
+			else if(bmi>=19.11 && bmi<=25.80){
+            document.getElementById('place-here').innerHTML="Ideal range";
+			// alert("Ideal range");
+			}
+			else if(bmi>=25.81 && bmi<=27.30){
+            document.getElementById('place-here').innerHTML="Marginally overweight range";
+			// alert("Marginally overweight range");
+			}
+			else if(bmi>=27.31 && bmi<=32.30){
+            document.getElementById('place-here').innerHTML="Overweight range";
+			// alert("Overweight range");
+			}
+			else{
+            document.getElementById('place-here').innerHTML="Very overweight or obese range";
+			// alert("Very overweight or obese range");
+			}
+		}
+	}
+	
+	</script>
+</head>
+<body bgcolor=#fdf7f0>
+
+    <div style="position:absolute;top:19%;left:20%;border:5px solid rosybrown;padding:20px">
+	<table border=1>
+	<tr><td colspan=2><p align="center"><b>BMI Calculator</b><select name="sex" id="sex"><option value="Male">Male</option><option value="Female">Female</option></select></p></td></tr>
+	<tr><td colspan=2><p align="left"><b>Enter Your Weight:</b><br>(in pounds)<input type="text" name="weight" id="weight"></p></td></tr>
+	<tr><td colspan=2><p align="left"><b>Enter Your Height:</b><br>(feet)<input type="text" name="heightfeet" id="heightfeet"><br><br>(inches)<input type="text" name="heightinch" id="heightinch"></p></td></tr>
+	<tr><td colspan=2><p align="center"><input type="button" value="Calculate" onclick="calBMI()"></p></td></tr>
+	<tr><td><p align="center"><font size=3><b>YOUR<br>BMI</b></font></p></td><td><p align="center"><input type="text" id="result"></p></td></tr>
+	</table>
+    </div>
+    <div style="position:absolute;top:15%;right:20%"><img src="bmiunnamed.png" style="width:350px;height:350px"></div>
+    <span style="position: absolute; top: 70%; left: 35%; color: red; font-family: sans-serif; font-size: 35px">
+        Your Result will appear here
+    </span>
+    <div style="position: absolute; top: 76%; left: 35%; right: 35%">
+    <div style="font-family: sans-serif; font-size: 35px; background-color: bisque; border: 5px solid black; padding: 20px">
+        <span id="place-here"></span>
+    </div>
+    </div>
+</body>
+</html>

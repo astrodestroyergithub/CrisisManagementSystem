@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(222, 184, 135, 0.5);
+}
+
+.module{
+    position: absolute;
+    top: 36%;
+    left: 27%;
+    right: 27%;
+    background-color: peachpuff;
+    padding: 35px;
+    border: 10px solid #bc8f8f;
+}
+
+#list-style{
+    font-family: arial black;
+    font-size: 25px;
+    color: #fff;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: saddlebrown;
+}
+
+#heading{
+    font-family: arial;
+    color: #fff;
+    font-size: 60px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.head-wrap{
+    padding: 20px;
+    border: 12px solid #bc8f8f;
+    background-color: rosybrown;
+}

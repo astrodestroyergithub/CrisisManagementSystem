@@ -1,0 +1,172 @@
+body
+{
+    margin: 0px;
+    background-color: rgb(222, 184, 135, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#head
+{
+    background-color: rosybrown;
+    color: whitesmoke;
+}
+
+#nav
+{
+    background-color: peachpuff;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#nav ul
+{
+    padding: 0px;
+    list-style: none;
+}
+
+#nav li
+{
+    display: inline;
+}
+
+#nav a
+{
+    color: rosybrown;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+#showcase
+{
+    background-image: url(sun.jpg);
+    background-position: center;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#showcase h1
+{
+    color: wheat;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#content
+{
+    height: 170px;
+    padding: 50px;
+    text-align: center;
+    background-color: burlywood;
+    border: 10px solid rosybrown;
+    color: whitesmoke;
+    font-size: 30px;
+    padding-top: 80px;
+}
+
+#foot
+{
+    background-color: grey;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+#about
+{
+    padding: 90px;
+    color: rosybrown;
+    font-size: 38px;
+}
+
+.parent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form
+{
+    padding: 100px;
+    font-size: 20px;
+}
+
+.form table
+{
+    border: 2px solid rosybrown;
+    border-radius: 20px;
+    padding: 50px;
+    height: 300px;
+    font-size: 20px;
+    color: rosybrown;
+    background-color: rgb(255, 218, 185, 0.5);
+    text-align: center;
+}
+
+#name
+{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: 3px solid rosybrown;
+    border-radius: 5px;
+}
+
+#email
+{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: 3px solid rosybrown;
+    border-radius: 5px;
+}
+
+#username
+{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: 3px solid rosybrown;
+    border-radius: 5px;
+}
+
+#password
+{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: 3px solid rosybrown;
+    border-radius: 5px;
+}
+
+::placeholder
+{
+    color: rosybrown;
+    opacity: 1;
+    font-size: 20px;
+}
+
+#submit
+{
+    color: rosybrown;
+    background-color: rgb(222, 184, 135, 0.5);
+    border: 2px solid rosybrown;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+}
+
+td
+{
+    padding: 10px;
+}

@@ -1,0 +1,126 @@
+body{
+    background-color: #d9c0c0;
+}
+
+#gen{
+    font-family: arial black;
+    color: crimson;   
+    font-size: 20px;
+    align-content: stretch;
+}
+
+.main{
+    position: absolute;
+    top: 14%;
+    left: 2%;
+    border: 3px solid black;
+    padding: 7px;
+    padding-right: 38px;
+    background-color: bisque;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: orange;
+}
+
+.subor{
+    position: absolute;
+    top: 14%;
+    right: 2%;
+    border: 3px solid black;
+    padding: 7px;
+    padding-right: 38px;
+    background-color: bisque;
+    text-align: left;
+}
+
+#spec{
+    font-family: arial black;
+    color: brown;   
+    font-size: 20px;
+    align-content: stretch;
+}
+
+#pstyle{
+    font-family: arial black;
+    color: olive;
+    font-size: 22px;
+}
+
+.content{
+    position: absolute;
+    top: 14%;
+    left: 29%;
+    background-color: bisque;
+    padding-left: 27px;
+    padding-right: 27px;
+    text-align: left;
+    border: 3px solid black;
+}
+
+#country-heading{
+    font-family: arial black;
+    color: saddlebrown;
+    font-size: 35px;
+}
+
+.country-box{
+    top: 20%;
+    left: 2%;
+    position: absolute;
+    padding: 20px;
+    border: 3px solid black;
+    background-color: bisque;
+}
+
+#case{
+    font-family: arial black;
+    color: red;
+    font-size: 25px;
+}
+
+#case-num{
+    font-family: arial black;
+    color: darkgreen;
+    font-size: 25px;
+}
+
+.last-mod{
+    top: 20%;
+    right: 2%;
+    position: absolute;
+    padding: 20px;
+    border: 3px solid black;
+    background-color: bisque;
+}
+
+#state-heading{
+    font-family: arial black;
+    color: saddlebrown;
+    font-size: 35px;
+}
+
+.state-box{
+    top: 20%;
+    left: 2%;
+    position: absolute;
+    padding: 20px;
+    border: 3px solid black;
+    background-color: bisque;
+}
+
+.dist-box{
+    position: absolute;
+    top: 36%;
+    padding: 20px;
+    background-color: bisque;
+    border: 3px solid black;
+    padding-bottom: 21px;
+    right: 2%;
+    left: 50%;
+}
